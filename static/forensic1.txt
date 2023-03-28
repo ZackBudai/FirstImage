@@ -1,6 +1,4 @@
-Dhalsim uses an SHA512 hash of a keyword as his password.
-Unfortunately, he has forgotten his keyword, but his back up password notebook shows the string 'AHkAbwBnAGEAdABlAGwAZQBwAG8AcgB0', with base64 written next to it.
-Give Dhalsim his password 
+What is the UID of user lemmy?
 
 ANSWER: <Type answer here>
 
