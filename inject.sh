@@ -11,6 +11,7 @@ sudo useradd kamek
 sudo useradd bulletbill
 sudo useradd lemmy
 sudo useradd morton
+sudo useradd bobomb
 
 #add sudo
 sudo usermod -aG sudo boo
