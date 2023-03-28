@@ -54,7 +54,7 @@ sudo echo 'thisisabackdoor' > /home/morton/desertland/giantland/notabackdoor.js
 #applications
 sudo apt update 
 sudo DEBIAN_FRONTEND=noninteractive apt-get install -qq postfix < /dev/null > /dev/null
-sudo apt install gedit vim sqlite3 DNSenum Dirb mysql-server -y -qq
+sudo apt install gedit vim sqlite3 DNSenum Dirb terminator mysql-server -y -qq
 sudo service sqlite3 stop
 
 
