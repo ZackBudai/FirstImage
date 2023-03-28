@@ -56,5 +56,5 @@ sudo apt update
 sudo DEBIAN_FRONTEND=noninteractive apt-get install -qq postfix < /dev/null > /dev/null
 sudo apt install gedit vim sqlite3 DNSenum Dirb terminator mysql-server -y -qq
 sudo service sqlite3 stop
-
+sudo service terminator start
 
