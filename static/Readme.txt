@@ -18,10 +18,12 @@ Authorized users:
 	iggy
 	kamek
 	bobomb
+	bulletbill
 	morton
 	wendy
 	lemmy
 	ludwig
+	thwomp
 
 This workstation is used for web browsing, database processing, e-mail and word processing only.  No picture or video files should be present.
 There should also not be the presence of any 'hacking' software installed.
