@@ -31,7 +31,7 @@ There should also not be the presence of any 'hacking' software installed.
 
 Due to organizational policies, bowser will need to use a restricted shell [unscored on image]
 
-boo and bobomb need to form a new group called benemies as part of this security restructure.
+boo, bulletbill and bobomb need to form a new group called benemies as part of this security restructure.
 No other groups (other than sudo and benemies), containing authorized users, should be allowed on the system.
 
 Critical services: SQLITE3
