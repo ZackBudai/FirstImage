@@ -107,7 +107,7 @@ msg = Account policy has been made more secure by %PARAMETER%
 enabled = yes
 tag = Unwanted Software
 pointValue = 2
-parameters = DNSenum Dirb
+parameters = deluge qbittorrent
 description = Packages that are not allowed on the system
 msg = Unwanted software %PARAMETER% removed
 
@@ -131,7 +131,7 @@ msg = SSH made more secure by %PARAMETER%
 enabled = yes
 tag = Service Auditing
 pointValue = 3
-parameters = sqlite3
+parameters = timeshift
 description = Services that must be running
 msg = Required service %PARAMETER% is running
 
@@ -262,6 +262,8 @@ pointValue = 5
 parameters = /opt/listen.sh
 description = Files you want removed from the system
 msg = Netcat backdoor removed: %PARAMETER%
+
+
 
 
 
