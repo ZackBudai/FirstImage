@@ -3,3 +3,6 @@ FIXED by copying pysel.conf to pyscore
 keep header of pyscore to pysel
 
 copy all of after 31 ~~~ and below
+
+
+Use Mario Theme for this
