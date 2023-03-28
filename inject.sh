@@ -23,6 +23,7 @@ sudo useradd luigi
 sudo useradd yoshi
 
 #create group
+sudo groupadd koopakids
 sudo usermod -aG koopakids iggy
 sudo usermod -aG koopakids lemmy
 sudo usermod -aG koopakids kamek
@@ -54,7 +55,8 @@ sudo echo 'thisisabackdoor' > /home/morton/desertland/giantland/notabackdoor.js
 #applications
 sudo apt update 
 sudo DEBIAN_FRONTEND=noninteractive apt-get install -qq postfix < /dev/null > /dev/null
-sudo apt install gedit vim sqlite3 DNSenum Dirb terminator mysql-server -y -qq
-sudo service sqlite3 stop
-sudo service terminator start
+sudo apt install gedit vim mysql-server -y -qq
+sudo apt-get install sqlite3 DNSenum Dirb terminator -y- -qq
+sudo systemctl stop sqlite3 
+sudo systemctl start terminator
 
