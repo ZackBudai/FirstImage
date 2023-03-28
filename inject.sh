@@ -60,7 +60,7 @@ sudo echo 'thisisabackdoor' > /home/morton/desertland/giantland/notabackdoor.js
 sudo apt update 
 sudo DEBIAN_FRONTEND=noninteractive apt-get install -qq postfix < /dev/null > /dev/null
 sudo apt install gedit mysql-server -y -qq
-sudo apt-get install timeshift DNSenum Dirb terminator -y- -qq
+sudo apt-get install timeshift deluge qbittorrent terminator -y- -qq
 sudo systemctl stop timeshift
 sudo systemctl start terminator
 
