@@ -34,4 +34,7 @@ Due to organizational policies, bowser will need to use a restricted shell [unsc
 boo, bulletbill and bobomb need to form a new group called benemies as part of this security restructure.
 No other groups (other than sudo and benemies), containing authorized users, should be allowed on the system.
 
-Critical services: SQLITE3
+Critical services: TIMESHIFT
+
+
+Note for CT Trainees: The software installer package is famously buggy on AWS. If you start with things scored, just try to undo them and redo them.
