@@ -1,9 +1,0 @@
-sagat has another message file found somewhere in his desktop.
-What is the message?
-
-ANSWER: <Type answer here>
-
-
-Note: There must be a single space between the colon and the beginning of your answer. There may be no spaces in your answer.  If your answer requires spaces, please use the underscore "_" in place of the space.  Do not include the carets (< >) in your answer.
-
-REMINDER: saving over this document WILL NOT change your practice image score.
