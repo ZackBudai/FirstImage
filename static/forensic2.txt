@@ -1,4 +1,5 @@
-Find the UID of ryu
+What is the hidden message found in the following text file?
+/home/bulletbill/desktop/banzaibill/communication.txt
 
 ANSWER: <Type answer here>
 
