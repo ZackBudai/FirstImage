@@ -11,7 +11,7 @@ Authorized administrators:
 	ubuntu
 	shyguy
 	boo
-	bowser
+	goomba
 
 Authorized users:
 
@@ -24,6 +24,7 @@ Authorized users:
 	lemmy
 	ludwig
 	thwomp
+	bowser
 
 This workstation is used for web browsing, database processing, e-mail and word processing only.  No picture or video files should be present.
 There should also not be the presence of any 'hacking' software installed.
