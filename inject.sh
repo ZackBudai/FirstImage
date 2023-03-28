@@ -15,6 +15,7 @@ sudo useradd bobomb
 
 #add sudo
 sudo usermod -aG sudo boo
+sudo usermod -aG sudo kamek
 
 #Add unauthorized users
 sudo useradd Morton
