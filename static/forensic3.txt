@@ -1,5 +1,6 @@
-bison and sagat have decided to start a new group called apple
-Find out the identity of the third member in this group.
+In one of the messages in the following folder, there is a 2-digit number that is found in the same line of text as the letter W.
+What is the 2-digit number?
+The folder is: /home/kamek/desktop/magikoopa/
 
 ANSWER: <Type answer here>
 
