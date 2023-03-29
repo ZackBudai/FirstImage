@@ -1,5 +1,24 @@
 #!/bin/bash
 
+# Disable unattended upgrades
+sudo systemctl disable --now unattended-upgrades
+
+# Create an APT lock file
+sudo touch /var/lib/dpkg/lock-frontend
+sudo touch /var/lib/apt/lists/lock
+
+# Stop any running APT processes
+sudo pkill -9 apt
+
+# Wait for a few seconds to ensure everything has stopped
+sleep 5
+
+#applications
+sudo apt update 
+sudo DEBIAN_FRONTEND=noninteractive apt-get install -qq postfix < /dev/null > /dev/null
+sudo apt install gedit deluge qbittorrent vsftpd mysql-server -y -qq
+sudo systemctl disable vsftpd
+
 #standard password change
 sudo echo -e "ubuntu\nubuntu" | passwd ubuntu
 
@@ -56,11 +75,11 @@ sudo echo 'builttobedestroyed' > /home/morton/desertland/giantland/.koopacastle/
 sudo echo 'wariocycle' > /home/bulletbill/desktop/banzaibill/.kaboom/wariocycle.tiff
 sudo echo 'thisisabackdoor' > /home/morton/desertland/giantland/notabackdoor.js
 
-#applications
-sudo apt update 
-sudo DEBIAN_FRONTEND=noninteractive apt-get install -qq postfix < /dev/null > /dev/null
-sudo apt install gedit mysql-server -y -qq
-sudo apt-get install timeshift deluge qbittorrent terminator -y- -qq
-sudo systemctl stop timeshift
-sudo systemctl start terminator
 
+
+# Remove APT lock files
+sudo rm /var/lib/dpkg/lock-frontend
+sudo rm /var/lib/apt/lists/lock
+
+# Re-enable unattended upgrades
+sudo systemctl enable --now unattended-upgrades
