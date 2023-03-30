@@ -65,12 +65,12 @@ sudo chown opossum /home/kookabura/whydopeoplelike/vegemite/secret.txt
 sudo echo 'happiestanimalintheworld' | tr a-z v-za-u |base64 > /home/quokka/desktop/aussie/aussie/aussie/decode.txt
 
 #Bad files 
-
 sudo echo 'returningboomerang' > /home/wallaby/spirit/ofaustralia/boomerang.mp4
 sudo echo 'this isnt actually a video file its a text file but i turned it into a video how' > /home/emu/soccer/not/football/why/timcahillbestgoals.mp4
 
-
-
+#allowed files
+sudo echo 'itsanawesomesong' > /home/wallaby/spirit/ofaustralia/istillcallaustraliahome.jpg
+sudo echo 'buyasausageatahardwarestore' > /home/quokka/desktop/aussie/aussie/aussie/sausagesizzle.tiff
 
 # Remove APT lock files
 sudo rm /var/lib/dpkg/lock-frontend
