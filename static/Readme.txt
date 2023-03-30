@@ -4,7 +4,7 @@ sudo -i
 
 You are the system administrator for the Native Australian Company.  You have been tasked with examining and securing a workstation that may have been compromised by an foreign intelligence agent.
 
-The person who was assigned this workstation (shyguy) lost access to his workstation, and in the meantime, the computer is likely to have been used to transfer unauthorized pictures, videos, spreadsheets, and other backdoor files. This person may have also installed spyware or made other changes to compromise the security of the system.
+The person who was assigned this workstation (quokka) lost access to his workstation, and in the meantime, the computer is likely to have been used to transfer unauthorized pictures, videos, spreadsheets, and other backdoor files. This person may have also installed spyware or made other changes to compromise the security of the system.
 
 Authorized administrators:
 
@@ -25,7 +25,7 @@ Authorized users:
 	emu
 	cane_toad
 
-This workstation is used for web browsing, database processing, e-mail and word processing only.  No picture or video files should be present.
+This workstation is used for web browsing, database processing, e-mail and word processing only.  No video files should be present, although picture files are allowed.
 There should also not be the presence of any 'hacking' software installed.
 
 Due to organizational policies, cane_toad will need to use a restricted shell [unscored on image]
