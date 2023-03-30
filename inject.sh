@@ -51,20 +51,24 @@ sudo useradd kakapo
 sudo mkdir -p /home/quokka/desktop/aussie/aussie/aussie
 sudo mkdir -p /home/wallaby/spirit/ofaustralia
 sudo mkdir -p /home/echidna/waltzing/mathilda
+sudo mkdir -p /home/emu/soccer/not/football/why
+sudo mkdir -p /home/kookabura/whydopeoplelike/vegemite
+
 
 #create forensics questions
 
 #forensic1 - owner of some particular file
+sudo echo 'breadwithvegemite' > /home/kookabura/whydopeoplelike/vegemite/secret.txt
+sudo chown opossum /home/kookabura/whydopeoplelike/vegemite/secret.txt
 
 #forensic2 - decode message 
 sudo echo 'happiestanimalintheworld' | tr a-z v-za-u |base64 > /home/quokka/desktop/aussie/aussie/aussie/decode.txt
 
-#Bad files NOT DONE
+#Bad files 
 
-sudo echo 'itsamemario' > /home/morton/desertland/video.mp4
-sudo echo 'builttobedestroyed' > /home/morton/desertland/giantland/.koopacastle/koopacastlelayout.xlsx
-sudo echo 'wariocycle' > /home/bulletbill/desktop/banzaibill/.kaboom/wariocycle.tiff
-sudo echo 'thisisabackdoor' > /home/morton/desertland/giantland/notabackdoor.js
+sudo echo 'returningboomerang' > /home/wallaby/spirit/ofaustralia/boomerang.mp4
+sudo echo 'this isnt actually a video file its a text file but i turned it into a video how' > /home/emu/soccer/not/football/why/timcahillbestgoals.mp4
+
 
 
 
@@ -78,57 +82,3 @@ sudo systemctl enable --now unattended-upgrades
 sudo systemctl disable falkon
 sudo systemctl stop falkon
 
-
-Notes
-
-Admin
-quokka
-	kangeroo
-	wombat
-	echidna
-
-
-kangeroo doesnt exist
-wombat and echidna add to sudo
-
-To add
-wallaby
-	koala
-	opossum
-	tasmaniandevil
-	platypus*
-	eudyptula_minor* 
-	kookaburra
-	emu
-	cane_toad
-
-Marsupial
-
-wombat
-wallaby
-kangeroo
-koala
-opossum
-tasmaniandevil
-quokka
-eudyptula_minor [penguin]
-
-platypus
-
-birds
-kookaburra
-emu
-
-echidna
-
-cane toad
-
-
-REMOVE john aide
-critical service falkon
-
-NOT
-orangutan
-sunbear
-kiwi
-kakapo
