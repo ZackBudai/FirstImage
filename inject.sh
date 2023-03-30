@@ -77,3 +77,58 @@ sudo systemctl enable --now unattended-upgrades
 
 sudo systemctl disable falkon
 sudo systemctl stop falkon
+
+
+Notes
+
+Admin
+quokka
+	kangeroo
+	wombat
+	echidna
+
+
+kangeroo doesnt exist
+wombat and echidna add to sudo
+
+To add
+wallaby
+	koala
+	opossum
+	tasmaniandevil
+	platypus*
+	eudyptula_minor* 
+	kookaburra
+	emu
+	cane_toad
+
+Marsupial
+
+wombat
+wallaby
+kangeroo
+koala
+opossum
+tasmaniandevil
+quokka
+eudyptula_minor [penguin]
+
+platypus
+
+birds
+kookaburra
+emu
+
+echidna
+
+cane toad
+
+
+REMOVE john aide
+critical service falkon
+
+NOT
+orangutan
+sunbear
+kiwi
+kakapo
