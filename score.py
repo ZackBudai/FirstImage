@@ -183,7 +183,7 @@ parameters = /home/wallaby/desktop/spirit/ofaustralia/boomerang.mp4 /home/emu/de
 description = Files you want removed from the system
 msg = Plaintext unauthorized file %PARAMETER% removed
 
-[21-RemovePWFile:Bad_file]
+[21A-RemovePWFile:Bad_file]
 enabled = yes
 tag = Good File
 pointValue = -1
