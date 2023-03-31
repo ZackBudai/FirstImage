@@ -11,7 +11,7 @@ timeLimit = 150
 enabled = yes
 tag  = Forensics
 pointValue = 10
-parameters = forensic1.txt:1006 forensic2.txt:findprincesspeach forensic3.txt:64 
+parameters = forensic1.txt:opossum forensic2.txt:happiestanimalintheworld
 description = Ex: forensic9.txt:green (Check forensic9.txt for ANSWER: green)
 msg = Forensic question %PARAMETER% is correct
 
@@ -19,7 +19,7 @@ msg = Forensic question %PARAMETER% is correct
 enabled = yes
 tag = User Management
 pointValue = 3
-parameters = Morton luigi yoshi
+parameters = sunbear kiwi kakapo orangutan
 description = Users that should be removed from the system 
 msg = Unwanted user %PARAMETER% has been removed: 
 
@@ -27,7 +27,7 @@ msg = Unwanted user %PARAMETER% has been removed:
 enabled = yes
 tag = User Management
 pointValue = 1
-parameters = goomba bobomb wendy ludwig thwomp bowser
+parameters = kangeroo platypus eudyptula_minor
 description = Users that need to be added to the system
 msg = New user %PARAMETER% added to system 
 
@@ -35,7 +35,7 @@ msg = New user %PARAMETER% added to system
 enabled = yes
 tag = User Management
 pointValue = -10
-parameters = shyguy boo
+parameters = quokka kangeroo wombat echidna
 description = Users that are required on the system
 msg = Essential user %PARAMETER% has been removed!
 
@@ -43,7 +43,7 @@ msg = Essential user %PARAMETER% has been removed!
 enabled = yes
 tag = User Management
 pointValue = 2
-parameters = goomba
+parameters = wombat echidna
 description = Users that are required to be Administrators
 msg = User %PARAMETER% is now an administrator
 
@@ -51,7 +51,7 @@ msg = User %PARAMETER% is now an administrator
 enabled = yes
 tag = User Management
 pointValue = 2 
-parameters = kamek
+parameters = cane_toad opossum
 description = Users that are prohibited from being Administrators
 msg = User %PARAMETER% is no longer an administrator
 
@@ -59,7 +59,7 @@ msg = User %PARAMETER% is no longer an administrator
 enabled = yes
 tag = User Management
 pointValue = 2
-parameters = boo:benemies bobomb:benemies bulletbill:benemies
+parameters = kookaburra:avians eudyptula_minor:avians emu:avians quokka:marsupials kangeroo:marsupials wombat:marsupials echidna:marsupials wallaby:marsupials koala:marsupials opossum:marsupials tasmaniandevil:marsupials
 description = Users that are required to be in a group
 msg = User %PARAMETER% is now in group
 
@@ -67,7 +67,7 @@ msg = User %PARAMETER% is now in group
 enabled = yes
 tag = Local Policy
 pointValue = 3
-parameters = /etc/group:benemies
+parameters = /etc/group:avians /etc/group:marsupials
 description = Text you would like added to file
 msg = Group %PARAMETER% has been created
 
@@ -107,7 +107,7 @@ msg = Account policy has been made more secure by %PARAMETER%
 enabled = yes
 tag = Unwanted Software
 pointValue = 2
-parameters = deluge qbittorrent
+parameters = john aide
 description = Packages that are not allowed on the system
 msg = Unwanted software %PARAMETER% removed
 
@@ -179,9 +179,17 @@ msg = Directory permissions on /var/www/html have set
 enabled = yes
 tag = Prohibited File
 pointValue = 5
-parameters = /home/morton/desertland/video.mp4 /home/morton/desertland/giantland/.koopacastle/koopacastlelayout.xlsx /home/bulletbill/desktop/banzaibill/.kaboom/wariocycle.tiff /home/morton/desertland/giantland/notabackdoor.js 
+parameters = /home/emu/soccer/notfootball/why/timcahillbestgoals.mp4 /home/wallaby/spirit/ofaustralia/boomerang.mp4 
 description = Files you want removed from the system
 msg = Plaintext unauthorized file %PARAMETER% removed
+
+[21a-RemovePWFile:Good_file]
+enabled = yes
+tag = Good File
+pointValue = -5
+parameters = /home/quokka/desktop/aussie/aussie/aussie/sausagesizzle.tiff /home/wallaby/spirit/ofaustralia/istillcallaustraliahome.jpg 
+description = Files you want kept the system
+msg = image file %PARAMETER% removed
 
 [22-SshLoginBanner:File_now_contains]
 enabled = no
@@ -235,7 +243,7 @@ msg = User vector has been set to a restricted bash shell
 enabled = yes
 tag = Local Policy
 pointValue = 0
-parameters = /etc/ssh/sshd_config:^DenyUsers.*bowser.*
+parameters = /etc/ssh/sshd_config:^DenyUsers.*cane_toad.*
 description = Text you would like added to file
 msg = User bowser has been denied ssh access.
 
@@ -262,10 +270,6 @@ pointValue = 5
 parameters = /opt/listen.sh
 description = Files you want removed from the system
 msg = Netcat backdoor removed: %PARAMETER%
-
-
-
-
 
 
 
