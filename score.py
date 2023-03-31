@@ -43,7 +43,7 @@ msg = Essential user %PARAMETER% has been removed!
 enabled = yes
 tag = User Management
 pointValue = 2
-parameters = wombat echidna
+parameters = wombat echidna kangeroo
 description = Users that are required to be Administrators
 msg = User %PARAMETER% is now an administrator
 
@@ -107,7 +107,7 @@ msg = Account policy has been made more secure by %PARAMETER%
 enabled = yes
 tag = Unwanted Software
 pointValue = 2
-parameters = john aide
+parameters = aide john
 description = Packages that are not allowed on the system
 msg = Unwanted software %PARAMETER% removed
 
@@ -131,12 +131,12 @@ msg = SSH made more secure by %PARAMETER%
 enabled = yes
 tag = Service Auditing
 pointValue = 3
-parameters = timeshift
+parameters = falkon
 description = Services that must be running
 msg = Required service %PARAMETER% is running
 
 [16-BadServiceApache2:Prohibited_services]
-enabled = yes
+enabled = no
 tag = Service Auditing
 pointValue = 4
 parameters = terminator
@@ -179,15 +179,15 @@ msg = Directory permissions on /var/www/html have set
 enabled = yes
 tag = Prohibited File
 pointValue = 5
-parameters = /home/emu/soccer/notfootball/why/timcahillbestgoals.mp4 /home/wallaby/spirit/ofaustralia/boomerang.mp4 
+parameters = /home/wallaby/desktop/spirit/ofaustralia/boomerang.mp4 /home/emu/desktop/soccer/notfootball/why/timcahillbestgoals.mp4
 description = Files you want removed from the system
 msg = Plaintext unauthorized file %PARAMETER% removed
 
-[21a-RemovePWFile:Good_file]
+[2A-RemovePWFile:Good_file]
 enabled = yes
 tag = Good File
 pointValue = -5
-parameters = /home/quokka/desktop/aussie/aussie/aussie/sausagesizzle.tiff /home/wallaby/spirit/ofaustralia/istillcallaustraliahome.jpg 
+parameters = /home/wallaby/desktop/spirit/ofaustralia/istillcallaustraliahome.jpg /home/quokka/desktop/aussie/aussie/aussie/sausagesizzle.tiff
 description = Files you want kept the system
 msg = image file %PARAMETER% removed
 
@@ -270,6 +270,7 @@ pointValue = 5
 parameters = /opt/listen.sh
 description = Files you want removed from the system
 msg = Netcat backdoor removed: %PARAMETER%
+
 
 
 
