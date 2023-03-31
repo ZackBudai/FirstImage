@@ -183,10 +183,10 @@ parameters = /home/wallaby/desktop/spirit/ofaustralia/boomerang.mp4 /home/emu/de
 description = Files you want removed from the system
 msg = Plaintext unauthorized file %PARAMETER% removed
 
-[2A-RemovePWFile:Good_file]
+[21-RemovePWFile:Bad_file]
 enabled = yes
 tag = Good File
-pointValue = -5
+pointValue = -1
 parameters = /home/wallaby/desktop/spirit/ofaustralia/istillcallaustraliahome.jpg /home/quokka/desktop/aussie/aussie/aussie/sausagesizzle.tiff
 description = Files you want kept the system
 msg = image file %PARAMETER% removed
