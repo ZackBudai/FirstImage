@@ -47,11 +47,11 @@ sudo useradd kiwi
 sudo useradd kakapo
 
 #make directories
-sudo mkdir -p /home/quokka/desktop/aussie/aussie/aussie
-sudo mkdir -p /home/wallaby/desktop/spirit/ofaustralia
-sudo mkdir -p /home/echidna/desktop/waltzing/mathilda
-sudo mkdir -p /home/emu/desktop/soccer/notfootball/why
-sudo mkdir -p /home/kookabura/desktop/whydopeoplelike/vegemite
+sudo mkdir -p /home/quokka/desktop/aussie/aussie/aussie/
+sudo mkdir -p /home/wallaby/desktop/spirit/ofaustralia/
+sudo mkdir -p /home/echidna/desktop/waltzing/mathilda/
+sudo mkdir -p /home/emu/desktop/soccer/notfootball/why/
+sudo mkdir -p /home/kookabura/desktop/whydopeoplelike/vegemite/
 
 
 #create forensics questions
@@ -64,11 +64,11 @@ sudo chown opossum /home/kookabura/desktop/whydopeoplelike/vegemite/secret.txt
 sudo echo 'happiestanimalintheworld' | tr a-z v-za-u |base64 > /home/quokka/desktop/aussie/aussie/aussie/decode.txt
 
 #Bad files 
-sudo echo 'itscalledmaccasnotmcdonalds' > /home/wallaby/spirit/ofaustralia/boomerang.mp4
-sudo echo 'this isnt actually a video file its a text file but i turned it into a video how' > /home/emu/soccer/notfootball/why/timcahillbestgoals.mp4
+sudo echo 'itscalledmaccasnotmcdonalds' > /home/wallaby/desktop/spirit/ofaustralia/boomerang.mp4
+sudo echo 'this isnt actually a video file its a text file but i turned it into a video how' > /home/emu/desktop/soccer/notfootball/why/timcahillbestgoals.mp4
 
 #allowed files
-sudo echo 'itsanawesomesong' > /home/wallaby/spirit/ofaustralia/istillcallaustraliahome.jpg
+sudo echo 'itsanawesomesong' > /home/wallaby/desktop/spirit/ofaustralia/istillcallaustraliahome.jpg
 sudo echo 'buyasausageatahardwarestore' > /home/quokka/desktop/aussie/aussie/aussie/sausagesizzle.tiff
 
 # Remove APT lock files
