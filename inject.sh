@@ -54,7 +54,7 @@ sudo mkdir -p /home/kookabura/desktop/whydopeoplelike/vegemite/
 #create forensics questions
 
 #forensic1 - owner of some particular file
-sudo echo 'timtamsarebetter > /home/kookabura/desktop/whydopeoplelike/vegemite/secret.txt
+sudo echo 'timtamsarebetter' > /home/kookabura/desktop/whydopeoplelike/vegemite/secret.txt
 sudo chown opossum /home/kookabura/desktop/whydopeoplelike/vegemite/secret.txt
 
 #forensic2 - decode message 
