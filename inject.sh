@@ -46,20 +46,19 @@ sudo useradd sunbear
 sudo useradd kiwi
 sudo useradd kakapo
 
-#STOPPED HERE
 #make directories
 sudo mkdir -p /home/quokka/desktop/aussie/aussie/aussie
-sudo mkdir -p /home/wallaby/spirit/ofaustralia
-sudo mkdir -p /home/echidna/waltzing/mathilda
-sudo mkdir -p /home/emu/soccer/notfootball/why
-sudo mkdir -p /home/kookabura/whydopeoplelike/vegemite
+sudo mkdir -p /home/wallaby/desktop/spirit/ofaustralia
+sudo mkdir -p /home/echidna/desktop/waltzing/mathilda
+sudo mkdir -p /home/emu/desktop/soccer/notfootball/why
+sudo mkdir -p /home/kookabura/desktop/whydopeoplelike/vegemite
 
 
 #create forensics questions
 
 #forensic1 - owner of some particular file
-sudo echo 'timtamsarebetter > /home/kookabura/whydopeoplelike/vegemite/secret.txt
-sudo chown opossum /home/kookabura/whydopeoplelike/vegemite/secret.txt
+sudo echo 'timtamsarebetter > /home/kookabura/desktop/whydopeoplelike/vegemite/secret.txt
+sudo chown opossum /home/kookabura/desktop/whydopeoplelike/vegemite/secret.txt
 
 #forensic2 - decode message 
 sudo echo 'happiestanimalintheworld' | tr a-z v-za-u |base64 > /home/quokka/desktop/aussie/aussie/aussie/decode.txt
