@@ -1,4 +1,7 @@
-What is the UID of user lemmy?
+Name the owner of the following file:
+/home/kookabura/whydopeoplelike/vegemite/secret.txt
+
+Note: NAME. UID not required.
 
 ANSWER: <Type answer here>
 
