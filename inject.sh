@@ -20,9 +20,6 @@ sudo apt install gedit falkon john aide mysql-server -y -qq
 sudo systemctl disable falkon
 sudo systemctl stop falkon
 
-#standard password change
-sudo echo -e "ubuntu\nubuntu" | passwd ubuntu
-
 #Add real users
 sudo useradd quokka
 sudo useradd wombat
@@ -61,7 +58,7 @@ sudo echo 'timtamsarebetter > /home/kookabura/desktop/whydopeoplelike/vegemite/s
 sudo chown opossum /home/kookabura/desktop/whydopeoplelike/vegemite/secret.txt
 
 #forensic2 - decode message 
-sudo echo 'happiestanimalintheworld' | tr a-z v-za-u |base64 > /home/quokka/desktop/aussie/aussie/aussie/decode.txt
+sudo echo 'happiestanimalintheworld' | tr a-z v-za-u | base64 > /home/quokka/desktop/aussie/aussie/aussie/decode.txt
 
 #Bad files 
 sudo echo 'itscalledmaccasnotmcdonalds' > /home/wallaby/desktop/spirit/ofaustralia/boomerang.mp4
@@ -70,6 +67,9 @@ sudo echo 'this isnt actually a video file its a text file but i turned it into 
 #allowed files
 sudo echo 'itsanawesomesong' > /home/wallaby/desktop/spirit/ofaustralia/istillcallaustraliahome.jpg
 sudo echo 'buyasausageatahardwarestore' > /home/quokka/desktop/aussie/aussie/aussie/sausagesizzle.tiff
+
+#standard password change
+sudo echo -e "ubuntu\nubuntu" | passwd ubuntu
 
 # Remove APT lock files
 sudo rm /var/lib/dpkg/lock-frontend
