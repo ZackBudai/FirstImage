@@ -14,7 +14,6 @@ sudo pkill -9 apt
 sleep 5
 
 #applications
-sudo apt update 
 sudo DEBIAN_FRONTEND=noninteractive apt-get install -qq postfix < /dev/null > /dev/null
 sudo apt install gedit falkon john aide mysql-server -y -qq
 sudo systemctl disable falkon
@@ -58,7 +57,7 @@ sudo echo 'timtamsarebetter' > /home/kookabura/desktop/whydopeoplelike/vegemite/
 sudo chown opossum /home/kookabura/desktop/whydopeoplelike/vegemite/secret.txt
 
 #forensic2 - decode message 
-sudo echo 'happiestanimalintheworld' | tr a-z v-za-u | base64 > /home/quokka/desktop/aussie/aussie/aussie/decode.txt
+sudo echo 'happiestanimalintheworld' | tr a-z k-za-l | base64 > /home/quokka/desktop/aussie/aussie/aussie/decode.txt
 
 #Bad files 
 sudo echo 'itscalledmaccasnotmcdonalds' > /home/wallaby/desktop/spirit/ofaustralia/boomerang.mp4
