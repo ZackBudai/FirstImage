@@ -1,5 +1,8 @@
-What is the hidden message found in the following text file?
-/home/quokka/desktop/aussie/aussie/aussie/decode.txt
+Decrypt the message found in the following file:
+/home/MazdaB787/desktop/24hour/lemans/whodrivesforthatlonganyway/thisisthecode.txt
+
+The key can be found in the following folder:
+/home/PaganiZondaF/desktop/itsnotacar/
 
 ANSWER: <Type answer here>
 
