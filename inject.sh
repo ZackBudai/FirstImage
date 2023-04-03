@@ -96,7 +96,7 @@ sudo echo 'cwftftkymttlnpgtpzythggyu' > /home/MazdaB787/desktop/24hour/lemans/wh
 #forensic 2 - decode text in file for key
 sudo echo 'CLUTCH' | base64 > /home/PaganiZondaF/desktop/itsnotacar/.thekeyis
 sudo chown 1006 /home/PaganiZondaF/desktop/itsnotacar/.thekeyis
-
+sudo chmod go-rw /home/PaganiZondaF/desktop/itsnotacar/.thekeyis
 
 #standard password change
 sudo echo -e "ubuntu\nubuntu" | passwd ubuntu
