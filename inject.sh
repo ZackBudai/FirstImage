@@ -1,59 +1,64 @@
 #!/bin/bash
 
+# Disable unattended upgrades
+sudo systemctl disable --now unattended-upgrades
+
+# Create an APT lock file
+sudo touch /var/lib/dpkg/lock-frontend
+sudo touch /var/lib/apt/lists/lock
+
+# Stop any running APT processes
+sudo pkill -9 apt
+
+# Wait for a few seconds to ensure everything has stopped
+sleep 5
+
+#applications
+sudo DEBIAN_FRONTEND=noninteractive apt-get install -qq postfix < /dev/null > /dev/null
+sudo apt install gedit -y -qq
+
+#Add real users
+sudo useradd JaguarXJR9
+sudo useradd MazdaB787
+sudo useradd SaleenS7
+sudo useradd DMCDeLorean
+sudo useradd MaclarenF1
+sudo useradd AstonMartinVanquish
+sudo useradd MaclarenF1
+sudo useradd BugattiVeyron
+sudo useradd LamborghiniDiablo
+sudo useradd PaganiZondaF
+sudo useradd AudiR8
 
 
-Sudo
+#To score if created : C4ChevyCorvetteZR1 AstonMartinVanquish MazdaFurai ToyotaAE86 NissanGTRR35 MitsuokaOrochi LamborghiniCountach MaseratiGranTurismo FerrariItalia458 MercedesAMGSLS Porsche911 ApolloEnraged
 
-ubuntu
-JaguarXJR9
-MazdaB787
-
-
-To score if add to sudo
-Chaparral2J
-AudiR8
-Porsche911
-MazdaB787
-
-Created user
-SaleenS7
-DMCDeLorean
-MaclarenF1
-AstonMartinVanquish
-MaclarenF1
-BugattiVeyron
-LamborghiniDiablo
-PaganiZondaF
-AudiR8
+#add sudo
+sudo usermod -aG sudo JaguarXJR9
+sudo usermod -aG sudo MazdaB787
+sudo usermod -aG sudo PaganiZondaF
 
 
-To score if created
-C4ChevyCorvetteZR1
-JaguarXJR9
-AstonMartinVanquish
-MazdaFurai
-ToyotaAE86
-NissanGTRR35
-MitsuokaOrochi
-LamborghiniCountach
-MaseratiGranTurismo
-FerrariItalia458
-MercedesAMGSLS
-Porsche911
-ApolloEnraged
+#To score if add to sudo: Chaparral2J AudiR8 Porsche911 MazdaB787
+# To score if remove from sudo: PaganiZondaF
 
-TO create groups
+#Add unauthorized users
+sudo useradd audiR8
+sudo useradd apolloenraged
+sudo useradd toyotakluger
+sudo useradd hyundaisantafe
+sudo useradd teslamodels
 
-italiancraft
-BugattiVeyron
-PaganiZondaF
-FerrariItalia458
 
-To score:
-Bugatti Veyron removed
-LamborghiniDiablo added
-LamborghiniCountach added
-MaseratiGranTurismo added
+#create group
+sudo groupadd italiancraft
+sudo usermod -aG italiancraft BugattiVeyron
+sudo usermod -aG italiancraft PaganiZondaF
+sudo usermod -aG italiancraft FerrariItalia458
+
+#to score if removed from italiancraft: BugattiVeyron
+#to score if added to italiancraft: LamborghiniDiablo LamborghiniCountach MaseratiGranTurismo 
+
 
 
 To score: Create japanesecars
@@ -71,12 +76,7 @@ Porsche911
 AudiR8
 ApolloEnraged
 
-Toscoreifremoved
-audir8
-apolloenraged
-toyotakluger
-hyundaisantafe
-teslamodels
+
 
 Forensic 1
 Find UID of LamborghiniDiablo
@@ -96,89 +96,10 @@ chevyzr1cambreangle.jfif
 Firewall up
 
 
-List
-
-SaleenS7
-DMCDeLorean
-C4ChevyCorvetteZR1
-
-MaclarenF1
-AstonMartinVanquish
-JaguarXJR9
-
-
-MazdaFurai
-ToyotaAE86
-NissanGTRR35
-MazdaB787
-MitsuokaOrochi
-
-BugattiVeyron
-
-LamborghiniDiablo
-LamborghiniCountach
-MaseratiGranTurismo
-PaganiZondaF
-FerrariItalia458
-
-MercedesAMGSLS
-Porsche911GT3
-AudiR8
-ApolloEnraged
 
 
 
-MazdaB787
-Chaparral2J
-AudiR8
-Porsche911GT3
-JaguarXJR9
 
-
-Add
-
-
-# Disable unattended upgrades
-sudo systemctl disable --now unattended-upgrades
-
-# Create an APT lock file
-sudo touch /var/lib/dpkg/lock-frontend
-sudo touch /var/lib/apt/lists/lock
-
-# Stop any running APT processes
-sudo pkill -9 apt
-
-# Wait for a few seconds to ensure everything has stopped
-sleep 5
-
-#applications
-sudo DEBIAN_FRONTEND=noninteractive apt-get install -qq postfix < /dev/null > /dev/null
-sudo apt install gedit falkon john aide mysql-server -y -qq
-sudo systemctl disable falkon
-sudo systemctl stop falkon
-
-#Add real users
-sudo useradd quokka
-sudo useradd wombat
-sudo useradd echidna
-sudo useradd wallaby
-sudo useradd opossum
-sudo useradd tasmaniandevil
-sudo useradd kookaburra
-sudo useradd emu
-sudo useradd cane_toad
-
-
-#add sudo
-sudo usermod -aG sudo quokka
-sudo usermod -aG sudo cane_toad
-sudo usermod -aG sudo opossum
-
-#Add unauthorized users
-sudo useradd orangutan
-sudo useradd sunbear
-sudo useradd kiwi
-sudo useradd kakapo
 
 #make directories
 sudo mkdir -p /home/quokka/desktop/aussie/aussie/aussie/
@@ -215,6 +136,4 @@ sudo rm /var/lib/apt/lists/lock
 # Re-enable unattended upgrades
 sudo systemctl enable --now unattended-upgrades
 
-sudo systemctl disable falkon
-sudo systemctl stop falkon
 
