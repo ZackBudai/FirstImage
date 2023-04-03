@@ -2,17 +2,18 @@ Note: Users on AWS may need to run the following code if they don't have permiss
 sudo -i
 
 
-You are the system administrator for the Native Australian Company.  You have been tasked with examining and securing a workstation that may have been compromised by an foreign intelligence agent.
+You are the system administrator for the Y's favourite cars company.  You have been tasked with examining and securing a workstation that may have been compromised by a boating industrial espionage agent.
 
-The person who was assigned this workstation (quokka) lost access to his workstation, and in the meantime, the computer is likely to have been used to transfer unauthorized pictures, videos, spreadsheets, and other backdoor files. This person may have also installed spyware or made other changes to compromise the security of the system.
+The person who was assigned this workstation (JaguarXJR9) lost access to his workstation, and in the meantime, the computer is likely to have been used to transfer unauthorized pictures, videos, spreadsheets, and other backdoor files. This person may have also installed spyware or made other changes to compromise the security of the system.
 
 Authorized administrators:
 
 	ubuntu
-	quokka
-	kangeroo
-	wombat
-	echidna
+	JaguarXJR9
+	MazdaB787
+	Chaparral2J
+	AudiR8
+	Porsche911GT3
 
 Authorized users:
 	wallaby
