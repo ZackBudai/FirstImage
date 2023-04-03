@@ -1,5 +1,143 @@
 #!/bin/bash
 
+
+
+Sudo
+
+ubuntu
+JaguarXJR9
+MazdaB787
+
+
+To score if add to sudo
+Chaparral2J
+AudiR8
+Porsche911
+MazdaB787
+
+Created user
+SaleenS7
+DMCDeLorean
+MaclarenF1
+AstonMartinVanquish
+MaclarenF1
+BugattiVeyron
+LamborghiniDiablo
+PaganiZondaF
+AudiR8
+
+
+To score if created
+C4ChevyCorvetteZR1
+JaguarXJR9
+AstonMartinVanquish
+MazdaFurai
+ToyotaAE86
+NissanGTRR35
+MitsuokaOrochi
+LamborghiniCountach
+MaseratiGranTurismo
+FerrariItalia458
+MercedesAMGSLS
+Porsche911
+ApolloEnraged
+
+TO create groups
+
+italiancraft
+BugattiVeyron
+PaganiZondaF
+FerrariItalia458
+
+To score:
+Bugatti Veyron removed
+LamborghiniDiablo added
+LamborghiniCountach added
+MaseratiGranTurismo added
+
+
+To score: Create japanesecars
+To score if aadded
+MazdaFurai
+ToyotaAE86
+NissanGTRR35
+MazdaB787
+MitsuokaOrochi
+
+To score: Create germanworkmanship
+To score if added
+MercedesAMGSLS
+Porsche911
+AudiR8
+ApolloEnraged
+
+Toscoreifremoved
+audir8
+apolloenraged
+toyotakluger
+hyundaisantafe
+teslamodels
+
+Forensic 1
+Find UID of LamborghiniDiablo
+
+Forensic 2
+Decode 'LeMansWinners' text
+Vigenere Cipher, key is found in another folder with chown, base64key
+
+Illegal videos
+redbullx1concept.mp4
+bugattiporschedragrace.mov
+
+Legalpictures
+deloreantimemachine.png
+chevyzr1cambreangle.jfif
+
+Firewall up
+
+
+List
+
+SaleenS7
+DMCDeLorean
+C4ChevyCorvetteZR1
+
+MaclarenF1
+AstonMartinVanquish
+JaguarXJR9
+
+
+MazdaFurai
+ToyotaAE86
+NissanGTRR35
+MazdaB787
+MitsuokaOrochi
+
+BugattiVeyron
+
+LamborghiniDiablo
+LamborghiniCountach
+MaseratiGranTurismo
+PaganiZondaF
+FerrariItalia458
+
+MercedesAMGSLS
+Porsche911GT3
+AudiR8
+ApolloEnraged
+
+
+
+MazdaB787
+Chaparral2J
+AudiR8
+Porsche911GT3
+JaguarXJR9
+
+
+Add
+
+
 # Disable unattended upgrades
 sudo systemctl disable --now unattended-upgrades
 
