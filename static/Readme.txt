@@ -16,28 +16,33 @@ Authorized administrators:
 	Porsche911
 
 Authorized users:
-	wallaby
-	koala
-	opossum
-	tasmaniandevil
-	platypus
-	eudyptula_minor 
-	kookaburra
-	emu
-	cane_toad
+	SaleenS7
+	ToyotaAE86
+	C4ChevyCorvetteZR1
+	LamborghiniCountach
+	AstonMartinVanquish
+	ApolloEnraged
+	FerrariItalia458
+	BugattiVeyron
+	MazdaFurai
+	MaseratiGranTurismo
+	NissanGTRR35
+	MaclarenF1
+	MitsuokaOrochi
+	LamborghiniDiablo
+	PaganiZondaF
+	DMCDeLorean
+	MercedesAMGSLS
+	
 
 This workstation is used for web browsing, database processing, e-mail and word processing only.  No video files should be present, although picture files are allowed.
-There should also not be the presence of any 'hacking' software installed.
+All software packages currently on the system are permitted, but care should be taken that the firewall is enabled.
 
-Due to organizational policies, cane_toad's account needs to be set to expire on Dec 24 this year.
-Wouldn't it be nice if cane toads, which aren't native to Australia, weren't around anymore?
+Due to organizational policies, BugattiVeyron needs to be removed from the group 'italiancraft' [may not be scored].
 
 As part of the security restructure, some users will need to be placed in different groups:
-avians: kookaburra, eudyptula_minor, emu
-marsupials: quokka, kangeroo, wombat, echidna, wallaby, koala, opossum, tasmaniandevil
+italiancraft: BugattiVeyron, FerrariItalia458, LamborghiniCountach, MaseratiGranTurismo, PaganiZondaF, LamborghiniDiablo
+japanesecars: MazdaFurai, ToyotaAE86, NissanGTRR35, MazdaB787, MitsuokaOrochi
+germanworkmanship: MercedesAMGSLS, Porsche911GT3, AudiR8, ApolloEnraged
 
-
-Critical services: falkon
-
-
-Note for CT Trainees: The software installer package is famously buggy on AWS. If you start with things scored, just try to undo them and redo them.
+Have fun!
