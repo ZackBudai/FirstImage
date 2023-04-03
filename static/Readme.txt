@@ -13,7 +13,7 @@ Authorized administrators:
 	MazdaB787
 	Chaparral2J
 	AudiR8
-	Porsche911GT3
+	Porsche911
 
 Authorized users:
 	wallaby
