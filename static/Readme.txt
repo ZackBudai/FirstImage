@@ -28,7 +28,8 @@ Authorized users:
 This workstation is used for web browsing, database processing, e-mail and word processing only.  No video files should be present, although picture files are allowed.
 There should also not be the presence of any 'hacking' software installed.
 
-Due to organizational policies, cane_toad will need to use a restricted shell [unscored on image]
+Due to organizational policies, cane_toad's account needs to be set to expire on Dec 24 this year.
+Wouldn't it be nice if cane toads, which aren't native to Australia, weren't around anymore?
 
 As part of the security restructure, some users will need to be placed in different groups:
 avians: kookaburra, eudyptula_minor, emu
