@@ -90,7 +90,7 @@ sudo echo 'cambreangleaffectshowsharpthecarcanturn' > /home/SaleenS7/desktop/ame
 #Find UID of LamborghiniDiablo (1008)
 
 Forensic 2
-Decode 'AlladminsareLeMansWinners' text
+Decode 'alladminsarelemanswinners' text
 Vigenere Cipher, key is found in another folder with chown, base64key
 
 #forensic2 - decode message 
