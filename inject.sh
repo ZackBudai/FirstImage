@@ -23,7 +23,6 @@ sudo useradd MazdaB787
 sudo useradd SaleenS7
 sudo useradd DMCDeLorean
 sudo useradd MaclarenF1
-sudo useradd AstonMartinVanquish
 sudo useradd BugattiVeyron
 sudo useradd LamborghiniDiablo
 sudo useradd PaganiZondaF
@@ -34,7 +33,6 @@ sudo useradd AudiR8
 
 #add sudo
 sudo usermod -aG sudo JaguarXJR9
-sudo usermod -aG sudo MazdaB787
 sudo usermod -aG sudo PaganiZondaF
 
 
