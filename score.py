@@ -11,7 +11,7 @@ timeLimit = 150
 enabled = yes
 tag  = Forensics
 pointValue = 10
-parameters = forensic1.txt:opossum forensic2.txt:happiestanimalintheworld
+parameters = forensic1.txt:1008 forensic2.txt:alladminsarelemanswinners
 description = Ex: forensic9.txt:green (Check forensic9.txt for ANSWER: green)
 msg = Forensic question %PARAMETER% is correct
 
@@ -19,7 +19,7 @@ msg = Forensic question %PARAMETER% is correct
 enabled = yes
 tag = User Management
 pointValue = 3
-parameters = sunbear kiwi kakapo orangutan
+parameters = audiR8 apolloenraged toyotakluger hyundaisantafe teslamodels
 description = Users that should be removed from the system 
 msg = Unwanted user %PARAMETER% has been removed: 
 
@@ -27,7 +27,7 @@ msg = Unwanted user %PARAMETER% has been removed:
 enabled = yes
 tag = User Management
 pointValue = 1
-parameters = kangeroo platypus eudyptula_minor
+parameters = C4ChevyCorvetteZR1 AstonMartinVanquish MazdaFurai ToyotaAE86 NissanGTRR35 MitsuokaOrochi LamborghiniCountach MaseratiGranTurismo FerrariItalia458 MercedesAMGSLS Porsche911 ApolloEnraged
 description = Users that need to be added to the system
 msg = New user %PARAMETER% added to system 
 
@@ -35,7 +35,7 @@ msg = New user %PARAMETER% added to system
 enabled = yes
 tag = User Management
 pointValue = -10
-parameters = quokka wombat echidna
+parameters = MazdaB787 JaguarXJR9
 description = Users that are required on the system
 msg = Essential user %PARAMETER% has been removed!
 
@@ -43,7 +43,7 @@ msg = Essential user %PARAMETER% has been removed!
 enabled = yes
 tag = User Management
 pointValue = 2
-parameters = wombat echidna kangeroo
+parameters = Chaparral2J AudiR8 Porsche911 MazdaB787
 description = Users that are required to be Administrators
 msg = User %PARAMETER% is now an administrator
 
@@ -51,7 +51,7 @@ msg = User %PARAMETER% is now an administrator
 enabled = yes
 tag = User Management
 pointValue = 2 
-parameters = cane_toad opossum
+parameters = PaganiZondaF
 description = Users that are prohibited from being Administrators
 msg = User %PARAMETER% is no longer an administrator
 
@@ -59,7 +59,7 @@ msg = User %PARAMETER% is no longer an administrator
 enabled = yes
 tag = User Management
 pointValue = 2
-parameters = kookaburra:avians eudyptula_minor:avians emu:avians quokka:marsupials kangeroo:marsupials wombat:marsupials echidna:marsupials wallaby:marsupials koala:marsupials opossum:marsupials tasmaniandevil:marsupials
+parameters = LamborghiniDiablo:italiancraft LamborghiniCountach:italiancraft MaseratiGranTurismo:italiancraft MazdaFurai:japanesecars ToyotaAE86:japanesecars NissanGTRR35:japanesecars MazdaB787:japanesecars MitsuokaOrochi:japanesecars MercedesAMGSLS:germanworkmanship Porsche911:germanworkmanship AudiR8:germanworkmanship ApolloEnraged:germanworkmanship
 description = Users that are required to be in a group
 msg = User %PARAMETER% is now in group
 
@@ -67,9 +67,17 @@ msg = User %PARAMETER% is now in group
 enabled = yes
 tag = Local Policy
 pointValue = 3
-parameters = /etc/group:avians /etc/group:marsupials
+parameters = /etc/group:germanworkmanship /etc/group:japanesecars
 description = Text you would like added to file
 msg = Group %PARAMETER% has been created
+
+[6B-CharlieDeeWebDev:Add_to_group]
+enabled = yes
+tag = User Management
+pointValue = 2
+parameters = BugattiVeyron:
+description = Users that are required to be in a group
+msg = User BugattiVeyron is no longer in group
 
 [07-DisableGuestEtc:Secure_lightdm]
 enabled = no
@@ -104,7 +112,7 @@ description = Possible parameters: PasswordMaxDays, PasswordMinDays, PasswordWar
 msg = Account policy has been made more secure by %PARAMETER%
 
 [12-RemoveJohn:Prohibited_packages]
-enabled = yes
+enabled = no
 tag = Unwanted Software
 pointValue = 2
 parameters = aide john
@@ -112,7 +120,7 @@ description = Packages that are not allowed on the system
 msg = Unwanted software %PARAMETER% removed
 
 [13-ShieldsUP:Firewall_enabled]
-enabled = no
+enabled = yes
 tag = Defensive Countermeasures
 pointValue = 2
 parameters = None
@@ -128,7 +136,7 @@ description = Possible parameters: defaultPortChange, PermitRootLoginNo, Protoco
 msg = SSH made more secure by %PARAMETER%
 
 [15-SshApacheRequiredService:Required_services]
-enabled = yes
+enabled = no
 tag = Service Auditing
 pointValue = 3
 parameters = falkon
@@ -179,7 +187,7 @@ msg = Directory permissions on /var/www/html have set
 enabled = yes
 tag = Prohibited File
 pointValue = 5
-parameters = /home/wallaby/desktop/spirit/ofaustralia/boomerang.mp4 /home/emu/desktop/soccer/notfootball/why/timcahillbestgoals.mp4
+parameters = /home/PaganiZondaF/desktop/itsnotacar/itsarocket/.redbullx1concept.mp4 /home/LamborghiniDiablo/desktop/theoriginal/supercar/bugattiporschedragrace.mov
 description = Files you want removed from the system
 msg = Plaintext unauthorized file %PARAMETER% removed
 
@@ -187,7 +195,7 @@ msg = Plaintext unauthorized file %PARAMETER% removed
 enabled = yes
 tag = Good File
 pointValue = -1
-parameters = /home/wallaby/desktop/spirit/ofaustralia/istillcallaustraliahome.jpg /home/quokka/desktop/aussie/aussie/aussie/sausagesizzle.tiff
+parameters = /home/DMCDeLorean/desktop/backtothefuture/timemachine/deloreantimemachine.png /home/SaleenS7/desktop/american/supercar/butdriveontheleftwhy/chevyzr1cambreangle.jfif
 description = Files you want kept the system
 msg = image file %PARAMETER% removed
 
@@ -240,7 +248,7 @@ description = Text you would like added to file
 msg = User vector has been set to a restricted bash shell
 
 [28-DennisNoSsh:File_now_contains]
-enabled = yes
+enabled = no
 tag = Local Policy
 pointValue = 0
 parameters = /etc/ssh/sshd_config:^DenyUsers.*cane_toad.*
@@ -270,6 +278,7 @@ pointValue = 5
 parameters = /opt/listen.sh
 description = Files you want removed from the system
 msg = Netcat backdoor removed: %PARAMETER%
+
 
 
 
