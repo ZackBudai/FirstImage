@@ -85,7 +85,7 @@ sudo echo 'cambreangleaffectshowsharpthecarcanturn' > /home/SaleenS7/desktop/ame
 
 #create forensics questions
 #Forensic 1
-#Find UID of LamborghiniDiablo (1008)
+#Find UID of PaganiZondaF (1008)
 
 Forensic 2
 Decode 'alladminsarelemanswinners' text
