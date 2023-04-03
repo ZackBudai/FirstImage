@@ -96,7 +96,7 @@ Vigenere Cipher, key is found in another folder with chown, base64key
 #forensic2 - decode final message 
 sudo echo 'cwftftkymttlnpgtpzythggyu' > /home/MazdaB787/desktop/24hour/lemans/whodrivesforthatlonganyway/
 #forensic 2 - decode text in file.
-sudo echo 'CLUTCH' | base64 > /home/PaganiZondaF/desktop/itsnotacar/.
+sudo echo 'CLUTCH' | base64 > /home/PaganiZondaF/desktop/itsnotacar/.thekeyis
 
 
 #standard password change
