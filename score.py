@@ -71,14 +71,6 @@ parameters = /etc/group:germanworkmanship /etc/group:japanesecars
 description = Text you would like added to file
 msg = Group %PARAMETER% has been created
 
-[6B-CharlieDeeWebDev:Add_to_group]
-enabled = yes
-tag = User Management
-pointValue = 2
-parameters = BugattiVeyron:
-description = Users that are required to be in a group
-msg = User BugattiVeyron is no longer in group
-
 [07-DisableGuestEtc:Secure_lightdm]
 enabled = no
 tag = User Management
